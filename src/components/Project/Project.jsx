@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import todo from  '../../assets/todolist.jpg';
-import portfolio from '../../assets/portfolio.jpg';
-import calculater from '../../assets/calculater.jpg';
+import todo from  '../../assets/todolist.png';
+import portfolio from '../../assets/portfolio.png';
+import calculater from '../../assets/calculater.png';
 
 import {motion} from 'framer-motion';
 
