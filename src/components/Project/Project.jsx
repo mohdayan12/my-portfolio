@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import todo from  '../../assets/todolist.png';
 import portfolio from '../../assets/portfolio.png';
-import calculater from '../../assets/calculater.png';
+import zayno from '../../assets/zayno.png'
+import zayro from '../../assets/zayro.png'
 
 import {motion} from 'framer-motion';
 
@@ -25,20 +25,20 @@ const cards=[{
    githublink:'https://github.com/mohdayan12/Portfolio.git'
 },
 {
-  title:"CALCULATER",
-   description:"Developed a responsive calculator web application with simple functionalities.It allow users to perform standard arithmatic operation such  as addition substraction, multiplication and division.",
-   technology:'Technology : Javascript, Css and Html',
-   ImgUrl:calculater,
-   websitelink:'https://mohdayan12.github.io/calculator/',
-   githublink:'https://github.com/mohdayan12/calculator.git'
+  title:"ZAYNO- ECOMMERCE",
+   description:"A MERN-based e-commerce website for men’s, women’s, and kids’. Includes secure authentication, product management, image uploads, shopping cart, order tracking.",
+   technology:'Technology : MERN STACK',
+   ImgUrl:zayno,
+   websitelink:'https://zayno-frontend.vercel.app',
+   githublink:'https://github.com/mohdayan12/Zayno.git'
 },
 {
-     title:"TODO-LIST",
-   description:"Developed a responsive and user-friendly To-Do List application to help users organize and manages their tasks effectively. The application allow user to create and delete a tasks which they completed.",
-   technology:"Technology : Javascript, Css and Html",
-   ImgUrl:todo,
-   websitelink:'https://mohdayan12.github.io/Todolist/',
-   githublink:'https://github.com/mohdayan12/Todolist.git'
+     title:"ZAYRO- AIRBNB PLATFORM",
+   description:"Airbnb-like platform for browsing, listing, and booking properties. Features JWT authentication, Cloudinary uploads, advanced search, booking management, and responsive.",
+   technology:"Technology : MERN STACK",
+   ImgUrl:zayro,
+   websitelink:'https://zayro-1.vercel.app',
+   githublink:'https://github.com/mohdayan12/Zayro_1.git'
 }];
   return (
     <div id="project"  className= " w-full h-min-screen mb-14 pt-16 ">
